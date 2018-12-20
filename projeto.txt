@@ -34,9 +34,7 @@ cpf varchar(14) not null,
 telefone varchar(14) not null,
 data_nasc date not null,
 imail varchar(30) not null,
-id_endereco int not null,
 primary key(id_funcionario),
-foreign key(id_endereco) references endereco(id_endereco)
 );
 
 create table tipo_imovel(
